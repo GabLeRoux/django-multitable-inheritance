@@ -1,5 +1,8 @@
 # Django Model Inheritance - Multi-Table Inheritance Example
 
+[![Build Status](https://travis-ci.com/gableroux/django-multitable-inheritance.svg?branch=master)](https://travis-ci.com/GabLeRoux/django-multitable-inheritance)
+[![Requirements Status](https://requires.io/github/GabLeRoux/django-multitable-inheritance/requirements.svg?branch=master)](https://requires.io/github/GabLeRoux/django-multitable-inheritance/requirements/?branch=master)
+
 As described in [the following post](https://godjango.com/blog/django-abstract-base-class-multi-table-inheritance/) Here's what happens when you use Multi Table Inheritance :rocket:
 
 See [multitable/models.py](models.py) for code snippet.

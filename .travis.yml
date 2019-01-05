@@ -1,0 +1,7 @@
+language: python
+python: "3.7"
+script:
+  - python manage.py test
+  - python manage.py migrate
+  - python manage.py graph_models -a -g -I "*Ticket*" -o result/graph.png
+  - python manage.py graph_models -a -g -I "*Ticket*" -o result/graph.svg

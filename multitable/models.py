@@ -8,7 +8,7 @@ class Ticket(models.Model):
     name = models.CharField(max_length=255, blank=True)
 
 class InternalTicket(Ticket):
-    user = models.ForeignKey('auth.User', null=True)
+    user = models.ForeignKey('auth.User', null=True, on_delete=models.CASCADE)
 
 class CustomerTicket(Ticket):
     product = models.TextField(blank=True)
