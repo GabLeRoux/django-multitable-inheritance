@@ -1,5 +1,7 @@
 language: python
 python: "3.6"
+before_script:
+  - apt-get install -y graphviz
 script:
   - python manage.py test
   - python manage.py migrate
