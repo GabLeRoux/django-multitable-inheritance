@@ -5,7 +5,7 @@
 
 As described in [the following post](https://godjango.com/blog/django-abstract-base-class-multi-table-inheritance/) Here's what happens when you use Multi Table Inheritance :rocket:
 
-See [multitable/models.py](models.py) for code snippet.
+See [multitable/models.py](multitable/models.py) for code snippet.
 
 ## Model graph
 
