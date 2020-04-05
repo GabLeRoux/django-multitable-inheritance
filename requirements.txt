@@ -3,5 +3,5 @@ Django==3.0.5
 django-extensions==2.2.9
 packaging==20.3
 pygraphviz==1.5
-pyparsing==2.4.6
+pyparsing==2.4.7
 six==1.14.0
