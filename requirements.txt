@@ -1,5 +1,5 @@
 appdirs==1.4.4
-Django==3.0.6
+Django==3.0.7
 django-extensions==2.2.9
 packaging==20.4
 pygraphviz==1.5
