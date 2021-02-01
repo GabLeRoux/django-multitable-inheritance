@@ -2,6 +2,6 @@ appdirs==1.4.4
 Django==3.1.6
 django-extensions==3.1.0
 packaging==20.9
-pygraphviz==1.6
+pygraphviz==1.7
 pyparsing==2.4.7
 six==1.15.0
